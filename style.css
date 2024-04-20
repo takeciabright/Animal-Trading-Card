@@ -1,0 +1,193 @@
+/* add your CSS here */
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+   background-image: linear-gradient(to bottom right,#000107, #2c668f,#000107, #2c668f);
+}
+
+.card2{
+    background-image: linear-gradient(to bottom right,#410303, #713f3f,#f5a0a0, #713f3f);
+}
+
+.intro {
+    width: 300px;
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 10px solid rgb(211, 211, 211);
+    box-shadow: 5px 5px 10px rgba(28, 28, 31, 0.704);
+}
+
+.typeR{
+    width: 45px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    border-radius: 90px 0px 100px 40px;
+    box-shadow: 3px 2px 5px rgb(0, 0, 0);
+    background-image: linear-gradient( #fbfcfc, #94999c, #fbfcfc, #94999c);
+    position: relative; top: -16px; left:-22px;
+
+    p{
+        margin: 5.5px;
+        padding-top: 13px;
+        padding-left: 14px;
+        padding-right: 10px;
+        font:italic small-caps 600 16px Fira Sans Condensed;
+        color:rgb(61, 62, 62);
+        position: absolute; top: -22.5px; left: -6px;
+    }  
+}
+
+.typeC{
+
+    width: 45px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    border-radius: 90px 0px 100px 40px;
+    box-shadow: 3px 2px 5px rgb(0, 0, 0);
+    background-image: linear-gradient( #fbfcfc, #94999c, #fbfcfc, #94999c);
+    position: relative; top: -16px; left:-22px;
+
+    
+    p{
+        margin: 5.5px;
+        padding-top: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font:italic small-caps 600 15px Fira Sans Condensed;
+        color:rgb(61, 62, 62);
+        position: absolute; top: -22.5px; left: -6px;
+    }
+        
+}
+
+h3{
+    margin-top: -15px;
+    margin-bottom: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: Fira Sans Condensed;
+    font-weight: 400;
+    font-size: 20px;
+    color:aliceblue;
+}
+
+.miniimg{
+    position: relative;
+
+    img{
+        width: 20px;
+        float:right;
+        position: absolute; top: -40px; right: 5px;
+   } 
+}
+
+.img1{
+    img{
+        width: 300px;
+        height: 162px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+        border-radius: 5px;
+        background-image: linear-gradient(to bottom right, #fbfcfc, #353535, #fbfcfc, #353535);
+    }
+}
+
+.img2{
+    img{
+        width: 300px;
+        height: 162px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+        border-radius: 5px;
+        background-image: linear-gradient(to bottom right, #fbfcfc, #353535, #fbfcfc, #353535);
+    }
+}
+
+.info{
+    width: 300px;
+    margin-top: 20px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #f0f1f397;
+    position: relative;
+}
+
+.snippet{
+    padding-top: 1px;
+    padding-left: 5px;
+    padding-right: 188px;
+    padding-bottom: 1px;
+    border-radius: 60px 0px 200px 40px;
+    border-color: #94999c;
+    background-image: linear-gradient( #fbfcfc, #94999c, #fbfcfc, #94999c);
+    box-shadow: 0px 0px 10px rgba(28, 28, 31, 0.704);
+    position: absolute; top: -36px; left:-2px;
+}
+
+.catergory{
+    font: 300 10px Fira Sans Condensed;
+    color:rgb(0, 0, 0);
+}
+
+.diduknow{
+    margin: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font: italic 200 10px Fira Sans Condensed;
+    font-size: 12px;
+    font-weight: 200;
+    color:aliceblue;
+}
+
+ul{
+    margin: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    list-style-type: none;
+    font-family: Fira Sans Condensed;
+    font-size: 12px;
+    font-weight: 200;
+    color: aliceblue;
+
+    span{
+        font-weight: 500;
+        color: aliceblue;
+    }
+}
+
+p {
+    margin: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-family: Fira Sans Condensed;
+    font-size: 12px;
+    font-weight: 200;
+    color:aliceblue;
+}
