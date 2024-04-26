@@ -25,7 +25,7 @@
     box-shadow: 5px 5px 10px rgba(28, 28, 31, 0.704);
 }
 
-.typeR{
+.typeRare{
     width: 45px;
     margin-top: 5px;
     margin-left: 10px;
@@ -38,19 +38,19 @@
     box-shadow: 3px 2px 5px rgb(0, 0, 0);
     background-image: linear-gradient( #fbfcfc, #94999c, #fbfcfc, #94999c);
     position: relative; top: -16px; left:-22px;
-
-    p{
-        margin: 5.5px;
-        padding-top: 13px;
-        padding-left: 14px;
-        padding-right: 10px;
-        font:italic small-caps 600 16px Fira Sans Condensed;
-        color:rgb(61, 62, 62);
-        position: absolute; top: -22.5px; left: -6px;
-    }  
 }
 
-.typeC{
+.typeRage p{
+    margin: 5.5px;
+    padding-top: 13px;
+    padding-left: 14px;
+    padding-right: 10px;
+    font:italic small-caps 600 16px Fira Sans Condensed;
+    color:rgb(61, 62, 62);
+    position: absolute; top: -22.5px; left: -6px;
+}  
+
+.typeCommon{
 
     width: 45px;
     margin-top: 5px;
@@ -64,19 +64,20 @@
     box-shadow: 3px 2px 5px rgb(0, 0, 0);
     background-image: linear-gradient( #fbfcfc, #94999c, #fbfcfc, #94999c);
     position: relative; top: -16px; left:-22px;
+}
 
     
-    p{
-        margin: 5.5px;
-        padding-top: 14px;
-        padding-left: 10px;
-        padding-right: 10px;
-        font:italic small-caps 600 15px Fira Sans Condensed;
-        color:rgb(61, 62, 62);
-        position: absolute; top: -22.5px; left: -6px;
-    }
-        
+.typeCommon p{
+    margin: 5.5px;
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font:italic small-caps 600 15px Fira Sans Condensed;
+    color:rgb(61, 62, 62);
+    position: absolute; top: -22.5px; left: -6px;
 }
+        
+
 
 h3{
     margin-top: -15px;
@@ -89,43 +90,28 @@ h3{
     color:aliceblue;
 }
 
-.miniimg{
+.mini-image img{
     position: relative;
-
-    img{
-        width: 20px;
-        float:right;
-        position: absolute; top: -40px; right: 5px;
-   } 
+    width: 20px;
+    float:right;
+    position: absolute; 
+    top: -40px; 
+    right: 5px;
 }
 
-.img1{
-    img{
-        width: 300px;
-        height: 162px;
-        padding-top: 1px;
-        padding-bottom: 1px;
-        padding-left: 1px;
-        padding-right: 1px;
-        border-radius: 5px;
-        background-image: linear-gradient(to bottom right, #fbfcfc, #353535, #fbfcfc, #353535);
-    }
+.animal-image img{
+    width: 300px;
+    height: 162px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, #fbfcfc, #353535, #fbfcfc, #353535);
+    
 }
 
-.img2{
-    img{
-        width: 300px;
-        height: 162px;
-        padding-top: 1px;
-        padding-bottom: 1px;
-        padding-left: 1px;
-        padding-right: 1px;
-        border-radius: 5px;
-        background-image: linear-gradient(to bottom right, #fbfcfc, #353535, #fbfcfc, #353535);
-    }
-}
-
-.info{
+.animal-info{
     width: 300px;
     margin-top: 20px;
     padding-bottom: 7px;
@@ -147,12 +133,12 @@ h3{
     position: absolute; top: -36px; left:-2px;
 }
 
-.catergory{
+.animal-category{
     font: 300 10px Fira Sans Condensed;
     color:rgb(0, 0, 0);
 }
 
-.diduknow{
+.funFact{
     margin: 5px;
     padding-top: 5px;
     padding-left: 10px;
@@ -173,11 +159,11 @@ ul{
     font-size: 12px;
     font-weight: 200;
     color: aliceblue;
+}
 
-    span{
-        font-weight: 500;
-        color: aliceblue;
-    }
+ul span{
+    font-weight: 500;
+    color: aliceblue;
 }
 
 p {
