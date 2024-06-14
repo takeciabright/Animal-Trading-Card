@@ -11,3 +11,9 @@
 <!--Level 3-->
 ## 🌐 Live Demo
 To see the cards, [click here](https://takeciabright.github.io/Animal-Trading-Card/)
+
+<!--Level 4-->
+## Author
+<a href="https://github.com/takeciabright/Project-Blog/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=takeciabright/Project-Blog" />
+</a>
